@@ -5,4 +5,4 @@ tags:
   - example-tag
 ---
 
-hello [[world]].
+hello [[World]].
