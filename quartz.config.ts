@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "jordyarms.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -29,25 +29,25 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fff8e7",           // Cosmic latte - warm, soft background
-          lightgray: "#e8dcc8",       // Warmer light tone
-          gray: "#a8a08a",            // Muted warm gray
-          darkgray: "#4a5240",        // Dark olive
-          dark: "#2d3027",            // Deep olive, almost black
-          secondary: "#556b2f",       // Dark olive green
-          tertiary: "#87a96b",        // Sage green
-          highlight: "rgba(135, 169, 107, 0.15)",  // Sage green highlight
+          light: "#fff8e7", // Cosmic latte - warm, soft background
+          lightgray: "#e8dcc8", // Warmer light tone
+          gray: "#a8a08a", // Muted warm gray
+          darkgray: "#4a5240", // Dark olive
+          dark: "#2d3027", // Deep olive, almost black
+          secondary: "#556b2f", // Dark olive green
+          tertiary: "#87a96b", // Sage green
+          highlight: "rgba(135, 169, 107, 0.15)", // Sage green highlight
           textHighlight: "#d4e8c1aa", // Soft sage highlight
         },
         darkMode: {
-          light: "#1a0f1f",           // Deep dark purple
-          lightgray: "#2d1b3d",       // Dark purple
-          gray: "#5a4866",            // Muted purple
-          darkgray: "#d4a5c7",        // Light pink-purple
-          dark: "#f5e6f0",            // Very light pink for text
-          secondary: "#9d4edd",       // Vibrant purple
-          tertiary: "#ff6b9d",        // Pink accent
-          highlight: "rgba(157, 78, 221, 0.15)",  // Purple highlight
+          light: "#1a0f1f", // Deep dark purple
+          lightgray: "#2d1b3d", // Dark purple
+          gray: "#5a4866", // Muted purple
+          darkgray: "#d4a5c7", // Light pink-purple
+          dark: "#f5e6f0", // Very light pink for text
+          secondary: "#9d4edd", // Vibrant purple
+          tertiary: "#ff6b9d", // Pink accent
+          highlight: "rgba(157, 78, 221, 0.15)", // Purple highlight
           textHighlight: "#ff6b9d44", // Pink text highlight
         },
       },
