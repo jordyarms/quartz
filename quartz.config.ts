@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Graphy",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fff8e7",           // Cosmic latte - warm, soft background
+          lightgray: "#e8dcc8",       // Warmer light tone
+          gray: "#a8a08a",            // Muted warm gray
+          darkgray: "#4a5240",        // Dark olive
+          dark: "#2d3027",            // Deep olive, almost black
+          secondary: "#556b2f",       // Dark olive green
+          tertiary: "#87a96b",        // Sage green
+          highlight: "rgba(135, 169, 107, 0.15)",  // Sage green highlight
+          textHighlight: "#d4e8c1aa", // Soft sage highlight
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1a0f1f",           // Deep dark purple
+          lightgray: "#2d1b3d",       // Dark purple
+          gray: "#5a4866",            // Muted purple
+          darkgray: "#d4a5c7",        // Light pink-purple
+          dark: "#f5e6f0",            // Very light pink for text
+          secondary: "#9d4edd",       // Vibrant purple
+          tertiary: "#ff6b9d",        // Pink accent
+          highlight: "rgba(157, 78, 221, 0.15)",  // Purple highlight
+          textHighlight: "#ff6b9d44", // Pink text highlight
         },
       },
     },
