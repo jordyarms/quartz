@@ -1,5 +1,6 @@
 ---
-title: Welcome to Graphy
+title: welcome, welcome
 ---
 
-Hello world.
+Now: [[2025-12-20]]
+
